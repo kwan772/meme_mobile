@@ -1,0 +1,46 @@
+.App {
+  background-color: #282c34;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  text-align: center;
+}
+h3 {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 50px;
+}
+
+html {
+  height: 1080px;
+  width: 607.5px;
+  margin: auto;
+}
+
+img {
+  max-height: 700px;
+  max-width: 98%;
+}
+
+.App-header {
+  position: relative;
+}
+
+.memeBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+@font-face{
+  font-family:'digital-clock-font';
+  src: url('./digital-7/digital-7\ \(mono\).ttf');
+}
+
+.timer {
+  right: 0px;
+  top: 900px;
+  position: absolute;
+  font-size: 100px;
+  font-family: 'digital-clock-font';
+}
